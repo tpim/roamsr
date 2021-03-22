@@ -43,7 +43,7 @@ roamsrUserSettings.defaultDeck.config = {
   minFactor: 1.3,
   jitterPercentage: 0.05,
   maxInterval: 50 * 365,
-  responseTexts: ["Again.", "Hard.", "Good.", "Easy."]
+  responseTexts: ["Again", "Hard", "Good", "Easy"]
 };
 
 /* ====== CUSTOM DECKS ====== */

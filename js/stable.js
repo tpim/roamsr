@@ -20,7 +20,7 @@ roamsr.ankiScheduler = (userConfig) => {
     minFactor: 1.3,
     jitterPercentage: 0.05,
     maxInterval: 50 * 365,
-    responseTexts: ["Again.", "Hard.", "Good.", "Easy."]
+    responseTexts: ["Again", "Hard", "Good", "Easy"]
   }
   config = Object.assign(config, userConfig);
 
@@ -757,7 +757,7 @@ roamsr.addShowAnswerButton = () => {
 
   var showAnswerAndClozeButton = Object.assign(document.createElement("button"), {
     className: "bp3-button roamsr-container__response-area__show-answer-button roamsr-button",
-    innerHTML: "Show answer.",
+    innerHTML: "Show answer",
     onclick: () => { roamsr.showAnswerAndCloze(false); roamsr.addResponseButtons(); }
   })
   showAnswerAndClozeButton.style.cssText = "margin: 5px;";
