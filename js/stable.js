@@ -716,7 +716,7 @@ roamsr.addContainer = () => {
     });
     var flagButton = Object.assign(document.createElement("button"), {
       className: "bp3-button roamsr-button",
-      innerHTML: "Flag.",
+      innerHTML: "Flag",
       onclick: async () => {
         await roamsr.flagCard();
         roamsr.stepToNext();
@@ -724,7 +724,7 @@ roamsr.addContainer = () => {
     });
     var skipButton = Object.assign(document.createElement("button"), {
       className: "bp3-button roamsr-button",
-      innerHTML: "Skip.",
+      innerHTML: "Skip",
       onclick: roamsr.stepToNext
     });
     flagButtonContainer.style.cssText = "justify-content: space-between;";
