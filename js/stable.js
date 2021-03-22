@@ -323,11 +323,6 @@ roamsr.loadCards = async (limits, dateBasis = new Date()) => {
 
 roamsr.addBasicStyles = () => {
   var style = `
-
-  .rm-block-main{
-    background: lightgray;
-    border-radius: 1em;
-  }
   .roamsr-widget__review-button {
     color: #5C7080 !important;
   }
